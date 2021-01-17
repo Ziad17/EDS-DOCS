@@ -143,7 +143,7 @@ VALUES (
 '01091050154', 
 '01008000340', 
 '0479104452', 
-'physical.therapy@ pt.kfs.edu.eg'
+'physical.therapy@pt.kfs.edu.eg'
 );
 
 INSERT INTO InstitutionContacts (
@@ -154,7 +154,7 @@ InstitutionContacts.fax,
 InstitutionContacts.email
 )
 VALUES (
-'http://www.kfs.edu.eg/ nur_inst/', 
+'http://www.kfs.edu.eg/nur_inst/', 
 '047/3109519', 
 '047/3109519', 
 '33511', 
@@ -280,7 +280,7 @@ VALUES (
 '01007755944', 
 '3109515', 
 '3109509', 
-'http://www.kfs.edu.eg/specific'
+'no email provided'
 );
 
 INSERT INTO InstitutionContacts (
