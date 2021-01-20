@@ -2,7 +2,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Computer and Information', 
@@ -15,7 +15,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Arts', 
@@ -29,7 +29,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Commerce', 
@@ -43,7 +43,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Education', 
@@ -57,7 +57,7 @@ VALUES (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Law', 
@@ -71,7 +71,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Agriculture', 
@@ -85,7 +85,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'pharmacy', 
@@ -99,7 +99,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Medicine', 
@@ -113,7 +113,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Dentistry', 
@@ -127,7 +127,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Sciences', 
@@ -143,7 +143,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Engineering', 
@@ -157,7 +157,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Veterinary Medicine', 
@@ -170,7 +170,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Fisheries Sciences', 
@@ -184,7 +184,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Nursing', 
@@ -197,7 +197,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Physical Therapy', 
@@ -211,7 +211,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Specific Education', 
@@ -224,7 +224,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Physical Education', 
@@ -238,7 +238,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'languages', 
@@ -251,7 +251,7 @@ INSERT INTO Institution (
 Institution.name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
-Institution.active)
+Institution.institution_active)
 
 VALUES (
 'Artificial intelligence', 

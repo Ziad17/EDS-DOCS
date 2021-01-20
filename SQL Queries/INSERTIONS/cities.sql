@@ -1,5 +1,5 @@
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -10,7 +10,7 @@ VALUES ('cairo',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -21,7 +21,7 @@ VALUES ('alexandria',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -32,7 +32,7 @@ VALUES ('giza',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -43,7 +43,7 @@ VALUES ('shubra elkheima',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -54,7 +54,7 @@ VALUES ('port said',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -65,7 +65,7 @@ VALUES ('suez',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -76,7 +76,7 @@ VALUES ('luxor',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -87,7 +87,7 @@ VALUES ('mansoura',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -99,7 +99,7 @@ VALUES ('Elmahalla el kubra',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -112,7 +112,7 @@ VALUES ('tanta',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -124,7 +124,7 @@ VALUES ('assiut',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -136,7 +136,7 @@ VALUES ('ismailia',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -148,7 +148,7 @@ VALUES ('fayyum',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -160,7 +160,7 @@ VALUES ('zagazig',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -171,7 +171,7 @@ VALUES ('aswan',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -182,7 +182,7 @@ VALUES ('damietta',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -193,7 +193,7 @@ VALUES ('damanhour',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -204,7 +204,7 @@ VALUES ('minya',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -216,7 +216,7 @@ VALUES ('beni suef',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -226,7 +226,7 @@ VALUES ('qena',
  83522
 );
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -237,7 +237,7 @@ VALUES ('suhag',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -250,7 +250,7 @@ VALUES ('hurghada',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -261,7 +261,7 @@ VALUES ('6 october',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -272,7 +272,7 @@ VALUES ('shebin elkom',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -283,7 +283,7 @@ VALUES ('banha',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -295,7 +295,7 @@ VALUES ('kafr elshiekh',
 );
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )
@@ -307,7 +307,7 @@ VALUES ('arish',
 
 
 INSERT INTO City (
-City.name,
+City.city_name,
  City.shortcut,
  City.postal_code
 )

@@ -18,7 +18,7 @@ ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
 
 /*Institution Table*/
 ALTER TABLE Institution
-ADD FOREIGN KEY (institution_contacts_email) REFERENCES InstitutionContacts(website_url);
+ADD FOREIGN KEY (institution_contacts_website) REFERENCES InstitutionContacts(website_url);
 
 /*Faculty Table*/
 ALTER TABLE Faculty
@@ -45,8 +45,8 @@ ALTER TABLE [File]
 ADD FOREIGN KEY (parent_folder_id) REFERENCES Folder(ID);
 ALTER TABLE [File]
 ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
-ALTER TABLE [File]
-ADD FOREIGN KEY (current_file_version) REFERENCES FileVersions(ID);
+
+ALTER TABLE [dbo].[File] ADD FOREIGN KEY (current_file_version) REFERENCES FileVersion(ID);
 
 
 /*FileVersion Table*/
@@ -58,6 +58,5 @@ ALTER TABLE FileVersion
 ADD FOREIGN KEY (file_type_extension) REFERENCES FileType(extension);
 ALTER TABLE FileVersion
 ADD FOREIGN KEY (file_content_id) REFERENCES FileContent(ID);
-
 
 
