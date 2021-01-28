@@ -1,28 +1,60 @@
 /*Person Table*/
 ALTER TABLE Person
 ADD FOREIGN KEY (contact_email) REFERENCES PersonContacts(email);
-ALTER TABLE Person
-ADD FOREIGN KEY (institution_id) REFERENCES Institution(ID);
+
 ALTER TABLE Person
 ADD FOREIGN KEY (city_shortcut) REFERENCES City(shortcut);
 
 
-/*Professor Table*/
-ALTER TABLE Professor
-ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
 
-/*Admin Table*/
-ALTER TABLE [Admin]
+
+/* PersonRoles Table*/
+ALTER TABLE PersonRoles
 ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
+ALTER TABLE PersonRoles
+ADD FOREIGN KEY (employee_title) REFERENCES EmployeesHierarchy(title);
+ALTER TABLE PersonRoles
+ADD FOREIGN KEY (institution_id) REFERENCES Institution(ID);
+
+
+
+/* PersonActionLogs Table*/
+ALTER TABLE PersonActionLogs
+ADD FOREIGN KEY (affecter_person_id) REFERENCES Person(ID);
+ALTER TABLE PersonActionLogs
+ADD FOREIGN KEY (affected_person_id) REFERENCES Person(ID);
+ALTER TABLE PersonActionLogs
+ADD FOREIGN KEY (permission_action_performed) REFERENCES PersonPermissions(bit_value);
+
+/* PersonNotification Table*/
+ALTER TABLE PersonNotification
+ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
+ALTER TABLE PersonNotification
+ADD FOREIGN KEY (notification_type) REFERENCES NotificationTypes(notification_name);
+ALTER TABLE PersonNotification
+ADD FOREIGN KEY (file_id) REFERENCES [File](ID);
+ALTER TABLE PersonNotification
+ADD FOREIGN KEY (notification_maker_id) REFERENCES Person(ID);
+
+
+/* Attachments Table*/
+ALTER TABLE Attachments
+ADD FOREIGN KEY (sender_id) REFERENCES Person(ID);
+ALTER TABLE Attachments
+ADD FOREIGN KEY (receiver_id) REFERENCES Person(ID);
+ALTER TABLE Attachments
+ADD FOREIGN KEY (attachment_file_type) REFERENCES FileType(type_name);
+ALTER TABLE Attachments
+ADD FOREIGN KEY (attachment_content_id) REFERENCES FileContent(ID);
+
+
 
 
 /*Institution Table*/
 ALTER TABLE Institution
 ADD FOREIGN KEY (institution_contacts_website) REFERENCES InstitutionContacts(website_url);
 
-/*Faculty Table*/
-ALTER TABLE Faculty
-ADD FOREIGN KEY (institution_id) REFERENCES Institution(ID);
+
 
 
 /*Folder Table*/
@@ -45,8 +77,8 @@ ALTER TABLE [File]
 ADD FOREIGN KEY (parent_folder_id) REFERENCES Folder(ID);
 ALTER TABLE [File]
 ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
-
-ALTER TABLE [dbo].[File] ADD FOREIGN KEY (current_file_version) REFERENCES FileVersion(ID);
+ALTER TABLE [File] 
+ADD FOREIGN KEY (current_file_version) REFERENCES FileVersion(ID);
 
 
 /*FileVersion Table*/
@@ -58,5 +90,20 @@ ALTER TABLE FileVersion
 ADD FOREIGN KEY (file_type_extension) REFERENCES FileType(extension);
 ALTER TABLE FileVersion
 ADD FOREIGN KEY (file_content_id) REFERENCES FileContent(ID);
+
+
+/*PersonFolderRoles Table*/
+ALTER TABLE PersonFolderRoles
+ADD FOREIGN KEY (folder_id) REFERENCES Folder(ID);
+ALTER TABLE PersonFolderRoles
+ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
+
+
+/*PersonFileRoles Table*/
+ALTER TABLE PersonFolderRoles
+ADD FOREIGN KEY (folder_id) REFERENCES Folder(ID);
+ALTER TABLE PersonFolderRoles
+ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
+
 
 
