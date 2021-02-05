@@ -1,5 +1,5 @@
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -12,7 +12,7 @@ VALUES (
 );
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -26,7 +26,7 @@ VALUES (
 );
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -40,7 +40,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -54,7 +54,7 @@ VALUES (
 
 
 /* INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -68,7 +68,7 @@ zzzzz,
  */
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -82,7 +82,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -96,7 +96,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -110,7 +110,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -124,7 +124,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -140,7 +140,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -154,7 +154,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -167,7 +167,7 @@ VALUES (
 );
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -181,7 +181,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -194,7 +194,7 @@ VALUES (
 );
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -208,7 +208,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -221,7 +221,7 @@ VALUES (
 );
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -235,7 +235,7 @@ VALUES (
 
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)
@@ -248,7 +248,7 @@ VALUES (
 );
 
 INSERT INTO Institution (
-Institution.name,
+Institution.institution_name,
  Institution.inside_campus,
 Institution.institution_contacts_website,
 Institution.institution_active)

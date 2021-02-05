@@ -96,14 +96,15 @@ ADD FOREIGN KEY (file_content_id) REFERENCES FileContent(ID);
 ALTER TABLE PersonFolderRoles
 ADD FOREIGN KEY (folder_id) REFERENCES Folder(ID);
 ALTER TABLE PersonFolderRoles
-ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
+ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
 
 
 /*PersonFileRoles Table*/
-ALTER TABLE PersonFolderRoles
-ADD FOREIGN KEY (folder_id) REFERENCES Folder(ID);
-ALTER TABLE PersonFolderRoles
-ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
+ALTER TABLE PersonFileRoles
+ADD FOREIGN KEY (file_id) REFERENCES File(ID);
+ALTER TABLE PersonFileRoles
+ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
+
 
 
 
