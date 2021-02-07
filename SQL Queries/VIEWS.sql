@@ -59,6 +59,24 @@ INNER JOIN PersonRolesAndPermissions_view
 ON Person_view.contact_email=PersonRolesAndPermissions_view.email;
 
 
+CREATE VIEW Notifications_view
+AS
+SELECT PersonNotification.ID
+       PersonNotification.person_id,
+       PersonNotification.notification_type,
+       PersonNotification.seen,
+       PersonNotification.file_id,
+       PersonNotification.notification_maker_id,
+       PersonNotification.date_created,
+       Person_view.contact_email,
+       Person_view.first_name,
+       Person_view.middle_name,
+       Person_view.last_name,
+FROM PersonNotification
+INNER JOIN Person_view.person_id
+ON PersonNotification.notification_maker_id = Person_view.id;
+
+
 
 
 

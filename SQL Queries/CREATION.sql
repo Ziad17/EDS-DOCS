@@ -57,6 +57,7 @@ CREATE TABLE NotificationTypes(
 
 
 CREATE TABLE PersonNotification(
+     ID INT IDENTITY(1, 1) PRIMARY KEY NOT NULL,
   person_id INT NOT NULL,
   notification_type VARCHAR(100) NOT NULL,
   seen BIT NOT NULL,
