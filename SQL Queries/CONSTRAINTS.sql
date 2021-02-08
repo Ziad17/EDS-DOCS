@@ -65,6 +65,14 @@ ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
 ALTER TABLE Folder
 ADD FOREIGN KEY (current_folder_version) REFERENCES FolderVersion(ID);
 
+
+ALTER TABLE FolderActionLogs
+    ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
+ALTER TABLE FolderActionLogs
+    ADD FOREIGN KEY (folder_id) REFERENCES [Folder](ID);
+ALTER TABLE FolderActionLogs
+    ADD FOREIGN KEY (folder_permission_action_performed) REFERENCES FolderPermissions(bit_value);
+
 /*FolderVersion Table*/
 ALTER TABLE FolderVersion
 ADD FOREIGN KEY (folder_id) REFERENCES Folder(ID);
@@ -79,6 +87,13 @@ ALTER TABLE [File]
 ADD FOREIGN KEY (author_id) REFERENCES Person(ID);
 ALTER TABLE [File] 
 ADD FOREIGN KEY (current_file_version) REFERENCES FileVersion(ID);
+
+ALTER TABLE FileActionLogs
+    ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
+ALTER TABLE FileActionLogs
+    ADD FOREIGN KEY (file_id) REFERENCES [File](ID);
+ALTER TABLE FileActionLogs
+    ADD FOREIGN KEY (file_permission_action_performed) REFERENCES FilePermissions(bit_value);
 
 
 /*FileVersion Table*/
