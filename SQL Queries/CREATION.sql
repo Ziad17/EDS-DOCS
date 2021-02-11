@@ -22,8 +22,9 @@ CREATE TABLE PersonContacts
 (
     email           VARCHAR(300) PRIMARY KEY NOT NULL,
     phone_number    VARCHAR(11) UNIQUE,
+    base_faculty    VARCHAR(300)  NOT NULL,
     phd_certificate VARCHAR(200),
-    image_ref       VARCHAR(1000) UNIQUE,
+    image_ref       VARCHAR(1000),
     bio             TEXT
 );
 

@@ -6,6 +6,10 @@ ALTER TABLE Person
 ADD FOREIGN KEY (city_shortcut) REFERENCES City(shortcut);
 
 
+/*PersonContacts*/
+ALTER TABLE PersonContacts
+    ADD FOREIGN KEY (base_faculty) REFERENCES Institution(institution_name);
+
 
 
 /* PersonRoles Table*/

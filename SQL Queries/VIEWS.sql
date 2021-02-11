@@ -73,8 +73,52 @@ SELECT PersonNotification.ID
        Person_view.middle_name,
        Person_view.last_name,
 FROM PersonNotification
-INNER JOIN Person_view.person_id
+INNER JOIN Person_view
 ON PersonNotification.notification_maker_id = Person_view.id;
+
+
+
+
+CREATE VIEW FileWithCurrentVersion_view
+AS
+SELECT [File].ID,
+        [File].parent_folder_id,
+        [File].date_created,
+        [File].author_id,
+        [File].current_file_version,
+        FileVersion.version_name,
+        FileVersion.version_notes,
+        FileVersion.version_number,
+        FileVersion.date_created,
+        FileVersion.author_id,
+        FileVersion.file_type_extension,
+        FileVersion.file_content_id,
+        FileContent.file_size
+FROM [File]
+INNER JOIN FileVersion
+ON [File].current_file_version=FileVersion.ID;
+INNER JOIN FileContent
+On FileVersion.file_content_id=FileContent.ID;
+
+
+CREATE VIEW FileVersions_Type_Content_view
+AS
+SELECT FileVersion.ID,
+       FileVersion.file_id,
+       FileVersion.version_name,
+       FileVersion.version_notes,
+       FileVersion.version_number,
+       FileVersion.date_created,
+       FileVersion.author_id,
+       FileVersion.file_type_extension,
+       FileVersion.file_content_id,
+       FileContent.href,
+       FileContent.file_size
+FROM FileVersion
+INNER JOIN FileContent
+ON FileVersion.file_content_id=FileContent.ID;
+
+
 
 
 
