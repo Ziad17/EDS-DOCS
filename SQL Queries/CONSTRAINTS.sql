@@ -1,4 +1,8 @@
+-- noinspection SqlResolveForFile
+
 /*Person Table*/
+
+
 ALTER TABLE Person
 ADD FOREIGN KEY (contact_email) REFERENCES PersonContacts(email);
 
@@ -120,7 +124,7 @@ ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
 
 /*PersonFileRoles Table*/
 ALTER TABLE PersonFileRoles
-ADD FOREIGN KEY (file_id) REFERENCES File(ID);
+ADD FOREIGN KEY (file_id) REFERENCES [File](ID);
 ALTER TABLE PersonFileRoles
 ADD FOREIGN KEY (person_id) REFERENCES Person(ID);
 
