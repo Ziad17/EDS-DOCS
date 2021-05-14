@@ -3,7 +3,7 @@ City.city_name,
  City.shortcut,
  City.postal_code
 )
-VALUES ('cairo', 
+VALUES ('cairo',
 'CA',
  11865 
 );
@@ -37,7 +37,7 @@ City.city_name,
  City.postal_code
 )
 
-VALUES ('shubra elkheima', 
+VALUES (N'شبرا الخيمة',
 'SHUB',
  13752 
 );
@@ -48,7 +48,7 @@ City.city_name,
  City.postal_code
 )
 
-VALUES ('port said', 
+VALUES (N'بورسعيد',
 'PS',
  42511
 );
